@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="84.0.4147.30"/>
+  <parameter name="url" value="https://pay.zing.vn"/>
+  <test name="Function Login(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="84.0.4147.30"/>
+    <parameter name="url" value="https://pay.zing.vn"/>
+    <classes>
+      <class name="com.testcase.LogInScript">
+        <methods>
+          <include name="testcase_01_Dont_input_username_password"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testcase.LogInScript -->
+    </classes>
+  </test> <!-- Function Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

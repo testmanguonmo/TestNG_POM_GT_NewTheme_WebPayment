@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- parallel="tests" thread-count="5" -->
+<suite name="Suite" parallel="tests">
+	<test name="Function Login">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="84.0.4147.30" />
+		<parameter name="url" value="https://pay.zing.vn" />
+		<classes>
+			<class name="com.testcase.LogInScript" />
+			<!-- <class name="com.payzing.testcase.HomePageScript_JXM" /> -->
+		</classes>
+	</test>
+
+</suite> 
